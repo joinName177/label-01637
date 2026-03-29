@@ -1,0 +1,61 @@
+# 依赖目录
+node_modules/
+*/node_modules/
+
+# 构建产物
+dist/
+build/
+*/dist/
+*/build/
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+*/.env
+*/.env.local
+
+# 日志文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 编辑器配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 测试覆盖率
+coverage/
+*/coverage/
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+*/.cache/
+
+# TypeScript 缓存
+*.tsbuildinfo
+*/*.tsbuildinfo
+
+# SQLite 数据库文件（本地开发）
+*.db
+*.sqlite
+*.sqlite3
+backend/data/
+
+# Docker 相关
+.docker/
+
+# ESLint 缓存
+.eslintcache
+*/.eslintcache
